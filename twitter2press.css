@@ -1,0 +1,52 @@
+#twitter2press-gallery .mainimg {
+	text-align: center;
+}
+
+#twitter2press-gallery .mainimg IMG {
+	width: 100%;
+	max-width: 320px;
+}
+
+#twitter2press-gallery UL  {
+	list-style-type: none;
+	width: 100%;
+}
+
+#twitter2press-gallery UL LI {
+	float :left;
+	padding: 0 5px 5px 5px;
+	width: 20%;
+	max-width: 100px;
+	min-width: 100px;
+
+}
+
+#twitter2press-gallery .breaker {
+	clear: both;
+	height: 1px;
+	overflow: hidden;
+}
+
+#twitter2press-gallery UL LI:before {
+	content:"";
+}
+
+
+
+#twitter2press-gallery UL LI IMG {
+	width: 100%;
+}
+
+#twitter2press-gallery .caption {
+	text-align:center;
+	padding:10px;
+}
+#twitter2press-gallery .datetime {
+	font-style:italic;
+	text-align:right;
+}
+#twitter2press-gallery .retweet {
+	text-align:center;
+	padding: 10px;
+}
+
